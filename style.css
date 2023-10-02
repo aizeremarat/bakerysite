@@ -1,0 +1,138 @@
+header{
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+}
+header h1{
+    font-family: 'La Belle Aurore', cursive;
+    color: #801515;
+}
+header ul {
+    font-family: Calibri, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+header ul li {
+    margin: 0 30px; 
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.image-container {
+    position: relative;
+}
+
+.image-caption {
+    position: absolute;
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center; 
+    z-index: 1;
+}
+
+.image-caption p {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 70px;
+    margin-bottom: 10px; 
+}
+
+.image-caption .btn {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 50px;
+    display: block;
+    background-color: #801515;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+main{
+    background-color: #EBEBEB;
+    align-items: center; 
+}
+
+.catalog {
+    position: relative;
+    display: flex; 
+    align-items: center;
+    background-color: #EBEBEB;
+    min-height: 100vh;
+    padding-top: 20px; 
+    margin-bottom: 0px;
+}
+
+.catalog-header {
+ /* Выравниваем текст "Our Catalog" по левому краю */
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 24px;
+    margin-bottom: 0px;
+    background-color: #801515;;
+    padding: 5px 5px;
+    text-align: center;
+    margin: 20px;
+    
+
+}
+
+.catalog-header h1{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #e4dbdb;
+    }
+
+.catalog-header ul{
+    color: #EBEBEB;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+.cake-photos {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.cake-photos img {
+    width: 30%;
+    height: 10%;
+    margin-bottom: 20px;
+}
+
+
+.cake-table {
+    position: absolute;
+    width: 100%;
+    background-color: #EBEBEB;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box; 
+    font-family: 'La Belle Aurore', cursive; 
+    font-size: 24px; 
+    border: 2px solid #000; 
+    align-items: center;
+}
